@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+
+body{
+    font-family: 'Open Sans',sans-serif;
+    background-color: hsl(217, 28%, 15%);
+}
+
+h1,h2,h3,h4,h5,h6, .cta,.list-item{
+    font-family: 'Raleway',sans-serif;
+}
+
+p{
+    line-height: 1.8;
+}
+
+img{
+    max-width: 100%;
+}
+
+ul,ol,li{
+    list-style-type: none;
+    opacity: 0.8;
+}
+
+li:hover{
+    cursor: pointer;
+    color: #fff;
+    opacity: 1;
+}
+
+.btn{
+    background-color: hsl(176, 68%, 64%);
+    padding: 0.625rem 2rem;
+    color: #fff;
+    border-radius: 30px;
+    font-weight: bold;
+    display: block;
+    margin: 0 auto;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: hsl(198, 60%, 50%);
+}
+
+.social-icons li{
+    color: #fff;
+    border: 2px solid #fff;
+    padding: 10px;
+    border-radius: 50%;
+}
+
+.social-icons li:hover{
+    color: hsl(176, 68%, 64%);
+    border: 2px solid hsl(176, 68%, 64%);
+}
+
+.underline{
+    color: hsl(176, 68%, 64%);
+}
+
+
+.underline:hover{
+    text-decoration: none;
+    color: #fff;
+}
+
+.underline img{
+    color: #fff;
+}
+
